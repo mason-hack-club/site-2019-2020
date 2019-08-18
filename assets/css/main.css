@@ -101,9 +101,12 @@ input, select, textarea {
 	body {
 		background-color: #2e3141;
 		background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-		background-size: auto, cover;
-		background-attachment: fixed, fixed;
-		background-position: center, center;
+		background-size: auto,
+ cover;
+		background-attachment: fixed,
+ fixed;
+		background-position: center,
+ center;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -121,7 +124,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #ffffff;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Montserrat", sans-serif;
 		font-size: 16.5pt;
 		font-weight: 300;
 		line-height: 1.65;
@@ -186,7 +189,7 @@ input, select, textarea {
 			text-decoration: none;
 			border-bottom: 0;
 			display: block;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: "Montserrat", sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
 			letter-spacing: 0.1em;
@@ -249,7 +252,7 @@ input, select, textarea {
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: "Montserrat", sans-serif;
 		font-weight: 700;
 		letter-spacing: 0.1em;
 		margin: 0 0 1em 0;
@@ -326,7 +329,7 @@ input, select, textarea {
 		background: rgba(255, 255, 255, 0.025);
 		border-radius: 5px;
 		border: solid 2px rgba(255, 255, 255, 0.125);
-		font-family: "Courier New", monospace;
+		font-family: "Montserrat", sans-serif;
 		font-size: 0.9em;
 		margin: 0 0.25em;
 		padding: 0.25em 0.65em;
@@ -334,7 +337,7 @@ input, select, textarea {
 
 	pre {
 		-webkit-overflow-scrolling: touch;
-		font-family: "Courier New", monospace;
+		font-family: "Montserrat", sans-serif;
 		font-size: 0.9em;
 		margin: 0 0 2em 0;
 	}
@@ -2164,7 +2167,7 @@ input, select, textarea {
 	label {
 		color: #ffffff;
 		display: block;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: "Montserrat", sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		letter-spacing: 0.1em;
@@ -2267,7 +2270,7 @@ input, select, textarea {
 			cursor: pointer;
 			display: inline-block;
 			font-size: 1em;
-			font-family: "Source Sans Pro", Helvetica, sans-serif;
+			font-family: "Montserrat", sans-serif;
 			text-transform: none;
 			letter-spacing: 0;
 			font-weight: 300;
@@ -2867,7 +2870,7 @@ input, select, textarea {
 		color: #ffffff !important;
 		cursor: pointer;
 		display: inline-block;
-		font-family: Raleway, Helvetica, sans-serif;
+		font-family: "Montserrat", sans-serif;
 		font-size: 0.8em;
 		font-weight: 700;
 		height: 3.75em;
@@ -3101,7 +3104,7 @@ input, select, textarea {
 			}
 
 		#header nav {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: "Montserrat", sans-serif;
 			font-size: 0.8em;
 			font-weight: 700;
 			height: 3em;
@@ -3324,7 +3327,7 @@ input, select, textarea {
 					border-radius: 5px;
 					border: 0;
 					display: block;
-					font-family: Raleway, Helvetica, sans-serif;
+					font-family: "Montserrat", sans-serif;
 					font-size: 0.8em;
 					font-weight: 200;
 					letter-spacing: 0.1em;
@@ -3450,7 +3453,7 @@ input, select, textarea {
 			-ms-filter: blur(0);
 			filter: blur(0);
 			opacity: 1;
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: "Montserrat", sans-serif;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -3464,8 +3467,10 @@ input, select, textarea {
 				padding: 7em 0 8.25em 0 ;
 				background-color: #2e3141;
 				background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-				background-size: auto, cover;
-				background-position: center, center;
+				background-size: auto,
+ cover;
+				background-position: center,
+ center;
 				margin-bottom: -6.5em;
 			}
 
@@ -3560,7 +3565,7 @@ input, select, textarea {
 		}
 
 		#wrapper > header p {
-			font-family: Raleway, Helvetica, sans-serif;
+			font-family: "Montserrat", sans-serif;
 			font-size: 1em;
 			font-weight: 200;
 			letter-spacing: 0.1em;
@@ -3574,8 +3579,10 @@ input, select, textarea {
 			padding: 9em 0 6.25em 0 ;
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, 0% 30%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 30%;
 			margin-bottom: -6.5em;
 		}
 
@@ -3585,8 +3592,10 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 11em 3em 7.375em 3em ;
-			background-size: auto, cover;
-			background-position: center, 0% 0%;
+			background-size: auto,
+ cover;
+			background-position: center,
+ 0% 0%;
 			margin-bottom: -4.75em;
 		}
 
@@ -3600,7 +3609,8 @@ input, select, textarea {
 
 		#wrapper > header {
 			padding: 6.5em 2em 3em 2em ;
-			background-size: auto, 125%;
+			background-size: auto,
+ 125%;
 			margin-bottom: -2.5em;
 		}
 
@@ -4062,8 +4072,10 @@ input, select, textarea {
 		#footer {
 			background-color: #2e3141;
 			background-image: linear-gradient(to top, rgba(46, 49, 65, 0.8), rgba(46, 49, 65, 0.8)), url("../../images/bg.jpg");
-			background-size: auto, cover;
-			background-position: center, center;
+			background-size: auto,
+ cover;
+			background-position: center,
+ center;
 			margin-top: -6.5em;
 			padding-top: 6.5em;
 		}
