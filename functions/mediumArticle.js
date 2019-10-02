@@ -1,6 +1,5 @@
 const axios = require('axios');
 
-
 exports.handler = function (event, context, callback) {
   const url = `https://www.medium.com/mason-hack-club/latest`;
   
