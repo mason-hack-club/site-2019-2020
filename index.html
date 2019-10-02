@@ -20,7 +20,6 @@
 		/></noscript>
 		<script src="assets/js/jquery.min.js"></script>
 		<script src="assets/js/jquery.scrollex.min.js"></script>
-		<script src="assets/js/apicall.js"></script>
 	</head>
 	<body class="is-preload">
 		<!-- Page Wrapper -->
@@ -283,19 +282,5 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
-		<script>
-			iframe.onload = function(){
-			var that = document.getElementById('iframe');
-		   
-			try{
-			   (that.contentWindow||that.contentDocument).location.href;
-			}
-			catch(err){
-				$('iframe').css({
-					'display': 'none'
-				})
-		   }
-		   }
-		   </script>
 	</body>
 </html>
