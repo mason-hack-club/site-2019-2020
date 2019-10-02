@@ -3292,6 +3292,13 @@ body.is-preload #banner p {
 #footer .inner .copyright li a {
   color: inherit;
 }
+iframe{
+  position: absolute;
+  left: 55vw;
+  top: 13vh;
+  width: 40vw;
+  height: 55vh;
+}
 @media screen and (max-width: 1280px) {
   #footer {
     background-color: #ef6362;
@@ -3323,6 +3330,8 @@ body.is-preload #banner p {
   #footer .inner .copyright {
     margin: 4em 0 2em 0;
   }
+  iframe{
+    display:none;
 }
 @media screen and (max-width: 736px) {
   #footer {
@@ -3338,6 +3347,8 @@ body.is-preload #banner p {
   #footer .inner .contact {
     margin: 0 0 3em 0;
   }
+  iframe{
+    display:none;
 }
 @media screen and (max-width: 480px) {
   #footer .inner .copyright li {
@@ -3349,11 +3360,15 @@ body.is-preload #banner p {
   #footer .inner .copyright li:first-child {
     margin-top: 0;
   }
+  iframe{
+    display:none;
 }
 @media screen and (max-width: 360px) {
   #footer .inner {
     padding: 2em 1.5em 0.1em 1.5em;
   }
+  iframe{
+    display:none;
 }
 
 /*# sourceMappingURL=main.css.map */

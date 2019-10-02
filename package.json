@@ -1,0 +1,22 @@
+{
+  "name": "mason-hack-club",
+  "version": "0.1.0",
+  "private": true,
+  "proxy": "http://localhost:9000",
+  "dependencies": {
+    "axios": "^0.18.0",
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "start:lambda": "netlify-lambda serve src/lambda",
+    "build": "react-scripts build",
+    "build:lambda": "netlify-lambda build src/lambda",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
+    "netlify-lambda": "^0.2.0"
+  }
+}

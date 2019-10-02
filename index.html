@@ -18,6 +18,9 @@
 		<noscript
 			><link rel="stylesheet" href="assets/css/noscript.css"
 		/></noscript>
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/apicall.js"></script>
 	</head>
 	<body class="is-preload">
 		<!-- Page Wrapper -->
@@ -64,6 +67,7 @@
 						<img src="images/mhc.png" style="width: 50%;height: 50%;">
 					</div>
 					<p>Learn. Code. Connect. Tuesdays, B112.</p>
+					<iframe id="iframe" src="https://medium.com/mason-hack-club/mason-hack-club-week-4-f0a292c95e65" frameborder="0"></iframe>
 				</div>
 			</section>
 
@@ -275,11 +279,23 @@
 		</div>
 
 		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/jquery.scrollex.min.js"></script>
 		<script src="assets/js/browser.min.js"></script>
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script>
+			iframe.onload = function(){
+			var that = document.getElementById('iframe');
+		   
+			try{
+			   (that.contentWindow||that.contentDocument).location.href;
+			}
+			catch(err){
+				$('iframe').css({
+					'display': 'none'
+				})
+		   }
+		   }
+		   </script>
 	</body>
 </html>
