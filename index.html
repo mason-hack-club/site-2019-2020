@@ -66,7 +66,7 @@
 						<img src="images/mhc.png" style="width: 50%;height: 50%;">
 					</div>
 					<p>Learn. Code. Connect. Tuesdays, B112.</p>
-					<iframe id="iframe" src="https://medium.com/mason-hack-club/mason-hack-club-week-4-f0a292c95e65" frameborder="0"></iframe>
+					<div id="iframe"></div>
 				</div>
 			</section>
 
@@ -282,5 +282,20 @@
 		<script src="assets/js/breakpoints.min.js"></script>
 		<script src="assets/js/util.js"></script>
 		<script src="assets/js/main.js"></script>
+		<script>
+			fetch('https://harmless-weaver.glitch.me/newestShip')
+			.then(response => {
+				return response.json()
+			})
+			.then(data => {
+				console.log(data)
+				const iframeDiv = document.getElementById("iframe")
+				iframe.innerHTML =  '<iframe id="iframe" src= ' +data + ' frameborder="0"></iframe>'
+			})
+			.catch(err => {
+				// Do something for an error here
+			})
+
+		</script>
 	</body>
 </html>
